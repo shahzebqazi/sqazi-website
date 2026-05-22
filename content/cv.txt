@@ -49,7 +49,7 @@ https://shahzebqazi.github.io/mhn-ai-agent-memory/
 Hopfield-network associative memory; MCP for small fact stores.
 
 Neck Diagram Studio
-https://gitlab.com/destroyerofworlds/neck-diagram-studio
+https://sqazi.sh/neck-diagram-studio/
 Fretboard diagram editor (Next.js): scales, chords, tunings, export. Frontend shipped; backend planned.
 
 ────────────────────────────────────────────────────────────────

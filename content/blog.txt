@@ -2,8 +2,8 @@ Short notes and build logs. Long-form posts will land here when mirrored; for no
 
 ────────────────────────────────────────────────────────────────
 
-2026-05-22 — Portfolio curation (sqazi.sh)
-What changed: home page and Projects now lead with audio × software flagships instead of a flat repo dump. If you only read five repos, start with Song Pit, MHN agent memory, hopfield-networks, pa2-car-plugin, and devops-for-the-horde.
+2026-05-22 — Repo consolidation (sqazi.sh + GitHub)
+What changed: Projects and profile README now match six pinned repos — cursor-agents, my-mac-config, iconoclast-vst-ui, pa2-car-plugin, zinwa-q25-keyboard, mhn-ai-agent-memory. Mac harnesses merged into my-mac-config; Linux dotfiles moved to private linux-config; Gankmid dev repos in private game-dev with public gankmid-co hub.
 
 ────────────────────────────────────────────────────────────────
 
@@ -15,7 +15,7 @@ Day-to-day build logs, gear notes, and half-finished thoughts live on Mastodon (
 Coming soon (draft topics)
 • Roasting my own GitHub graveyard — which repos matter and why
 • Strix Halo + CachyOS daily driver — keyboard, tiling, and agent harness setup
-• Song Pit walkthrough — self-hosted upload flow for mastering clients
+• Neck Diagram Studio walkthrough — fretboard editor UX
 
 ────────────────────────────────────────────────────────────────
 
