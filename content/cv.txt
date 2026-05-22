@@ -16,33 +16,37 @@ Source: https://github.com/shahzebqazi
 CORE STRENGTHS
 
 • Audio: mixing and mastering, DSP, plugin and workflow tooling; Reverb shop sales and client communication.
-• Music-tech software: self-hosted libraries (Song Pit / Ampache), Android Auto UX research, VST UI experiments.
-• AI / agents: Hopfield-network memory (MCP), local transcription hotkeys, Svelte search UI prototypes.
-• Systems: CachyOS + Cosmic, macOS daily driver, custom keyboards, dotfiles, documented public workflows.
+• Music-tech software: Android Auto UX research (PA2), VST UI experiments, Iconoclast web hub.
+• AI / agents: toy Hopfield memory (MCP), mystic-ai branches, public cursor-agents catalog.
+• Systems: my-mac-config Mac bootstrap hub; CachyOS + Cosmic; Zinwa Q25 keyboard firmware.
 
 ────────────────────────────────────────────────────────────────
 
-SELECTED PROJECTS (code)
+SELECTED PROJECTS (code — pinned)
 
-Song Pit — ampache-plugin-song-pit
-https://shahzebqazi.github.io/ampache-plugin-song-pit/
-Ampache plugin + magic-link upload SPA for self-hosted music libraries.
+cursor-agents
+https://github.com/shahzebqazi/cursor-agents
+Public agent tools: Mastodon posting + LAN MPD music agent.
 
-MHN AI Agent Memory — mhn-ai-agent-memory
-https://shahzebqazi.github.io/mhn-ai-agent-memory/
-Associative memory for AI agents using Modern Hopfield Networks; MCP server.
+my-mac-config
+https://github.com/shahzebqazi/my-mac-config
+Mac bootstrap hub (Horde art): harnesses, hotkeys, dotfiles.
 
-Hopfield Networks — hopfield-networks
-https://shahzebqazi.github.io/hopfield-networks/
-Haskell implementation + Three.js energy landscape demo.
+iconoclast-vst-ui
+https://shahzebqazi.github.io/iconoclast-vst-ui/
+VST plugin UI experiments.
 
 PA2 × Android Auto — pa2-car-plugin
 https://shahzebqazi.github.io/pa2-car-plugin/
-Power Ampache 2 × Auto sandbox, mockups, and UX research.
+Power Ampache 2 × Auto sandbox, mockups, UX research.
 
-DevOps for the Horde — devops-for-the-horde
-https://sqazi.sh/devops-for-the-horde/
-Mac bootstrap hub, satellite repos, Cursor-first workflows.
+zinwa-q25-keyboard
+https://github.com/shahzebqazi/zinwa-q25-keyboard
+Q25 fork of FUTO Keyboard.
+
+MHN AI Agent Memory — mhn-ai-agent-memory (toy / research)
+https://shahzebqazi.github.io/mhn-ai-agent-memory/
+Hopfield-network associative memory; MCP for small fact stores.
 
 ────────────────────────────────────────────────────────────────
 
@@ -61,7 +65,7 @@ https://www.gankmid.co/
 Game studio and gaming infrastructure.
 
 Mystic Labs (2025–present)
-https://sqazi.sh/mystic-labs-ai/
+https://sqazi.sh/mystic-ai/
 AI experiment hub (agent swarms, prompt tooling).
 
 ────────────────────────────────────────────────────────────────
