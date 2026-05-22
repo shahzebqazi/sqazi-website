@@ -1,31 +1,36 @@
 # sqazi
 
-I am a FOSS mastering engineer and programmer in Toronto, Ontario. My career goals are mostly in music; the paragraphs below are the other threads I am actively pursuing.
+Mastering engineer and programmer in Toronto. I build audio software—DSP, plugins, self-hosted music infra, and agent tooling around it.
 
-**Audio.** Mixing and mastering, DSP, and gear through [Iconoclast Audio](https://www.iconoclastaud.io/) and [my Reverb shop](https://reverb.com/shop/gearacquisitionsyndrome/) (DSP pedals and gear).
+Curated portfolio: [sqazi.sh/content.html?page=projects](https://sqazi.sh/content.html?page=projects)
 
-**Math and theory.** Category theory, symbolic reasoning, dimensionality reduction, Cauchy sequences, Hilbert spaces, dagger symmetries, and complex analysis—often with audio as the motivating lens.
+**Flagship repos**
 
-**AI and agents.** AI tooling and agent workflows (I primarily use Cursor). I am interested in HCI and UX research around a "hand-made feel" and whether feature extraction from that idea could matter for understanding AI agents.
+- [ampache-plugin-song-pit](https://shahzebqazi.github.io/ampache-plugin-song-pit/) — Song Pit: Ampache plugin + magic-link upload SPA
+- [mhn-ai-agent-memory](https://shahzebqazi.github.io/mhn-ai-agent-memory/) — Hopfield-network agent memory (MCP)
+- [hopfield-networks](https://shahzebqazi.github.io/hopfield-networks/) — Haskell + Three.js demo
+- [pa2-car-plugin](https://shahzebqazi.github.io/pa2-car-plugin/) — Power Ampache 2 × Android Auto UX research
+- [devops-for-the-horde](https://sqazi.sh/devops-for-the-horde/) — Mac bootstrap hub
 
-**Systems.** Bleeding-edge Linux distros and hardware: CachyOS with Cosmic Desktop on an AMD Strix Halo machine, alongside a MacBook Pro.
+**Audio.** [Iconoclast Audio](https://www.iconoclastaud.io/) · [Reverb shop](https://reverb.com/shop/gearacquisitionsyndrome/)
 
-**Games.** [Gankmid Co. Studios](https://www.gankmid.co/).
+**Systems.** CachyOS + Cosmic on Strix Halo, MacBook Pro, Zinwa Q25, dotfiles in public.
 
-Email [code@sqazi.sh](mailto:code@sqazi.sh). Also on [Matrix](https://matrix.to/#/@metalmasteringengineer:matrix.org), [Mastodon](https://social.devilplan.com/@willy), and [Instagram](https://www.instagram.com/kongposhmosh/).
+**Games.** [Gankmid Co. Studios](https://www.gankmid.co/)
+
+Email [code@sqazi.sh](mailto:code@sqazi.sh) · [Mastodon](https://social.devilplan.com/@willy) · [Matrix](https://matrix.to/#/@metalmasteringengineer:matrix.org) · [Instagram](https://www.instagram.com/kongposhmosh/)
 
 ## Links
 
 - [sqazi.sh](https://sqazi.sh) — personal site
 - [github.com/shahzebqazi](https://github.com/shahzebqazi) — source code, dotfiles, open-source work
 - [GitLab — CI/CD and private mirrors](https://gitlab.com/destroyerofworlds)
-- [Gankmid Co.](https://www.gankmid.co/) — game studio; gaming infrastructure (XMPP, Matrix, match servers, matchmaking)
+- [Gankmid Co.](https://www.gankmid.co/) — game studio; gaming infrastructure
 - [Iconoclast Audio](https://www.iconoclastaud.io/) — mixing, mastering, and DSP
 - [Reverb — gear shop](https://reverb.com/shop/gearacquisitionsyndrome/) — DSP pedals and gear
 - [Matrix](https://matrix.to/#/@metalmasteringengineer:matrix.org) — @metalmasteringengineer:matrix.org
 - [Mastodon](https://social.devilplan.com/@willy) — @willy@social.devilplan.com
 - [Instagram](https://www.instagram.com/kongposhmosh/) — @kongposhmosh
-- [YouTube](https://www.youtube.com/) — demos, music, long-form video
 
 ## Reach me
 

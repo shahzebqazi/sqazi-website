@@ -6,57 +6,82 @@ code@sqazi.sh · https://sqazi.sh
 
 PROFESSIONAL SUMMARY
 
-FOSS-oriented mastering engineer and programmer based in Toronto. I combine hands-on audio work (mixing, mastering, DSP, and gear) with software practice across agents, tooling, and static web delivery. I am motivated by client-facing audio work, product-minded engineering, and clear communication—see Projects, Blog, and GitHub for representative work and writing.
+Mastering engineer and programmer. I combine client-facing audio work (mixing, mastering, DSP, gear) with shipped open-source music-tech and agent tooling. Best fit: small teams building software where audio is the product or the workflow—not generic résumé stat-stacking.
+
+Representative work: https://sqazi.sh/content.html?page=projects
+Source: https://github.com/shahzebqazi
 
 ────────────────────────────────────────────────────────────────
 
 CORE STRENGTHS
 
-• Audio: mixing and mastering, DSP, plugin and workflow-oriented tooling; gear sales and client communication (Reverb shop).
-• Software: semantic HTML and static sites, GitHub Pages, scripting and small full-stack experiments; interest in AI tooling, agent workflows, and HCI/UX-adjacent exploration.
-• Systems: daily use of modern Linux desktop stacks alongside macOS; comfortable documenting workflows and shipping public repos.
+• Audio: mixing and mastering, DSP, plugin and workflow tooling; Reverb shop sales and client communication.
+• Music-tech software: self-hosted libraries (Song Pit / Ampache), Android Auto UX research, VST UI experiments.
+• AI / agents: Hopfield-network memory (MCP), local transcription hotkeys, Svelte search UI prototypes.
+• Systems: CachyOS + Cosmic, macOS daily driver, custom keyboards, dotfiles, documented public workflows.
 
 ────────────────────────────────────────────────────────────────
 
-VENTURES & PROJECTS (selected)
+SELECTED PROJECTS (code)
+
+Song Pit — ampache-plugin-song-pit
+https://shahzebqazi.github.io/ampache-plugin-song-pit/
+Ampache plugin + magic-link upload SPA for self-hosted music libraries.
+
+MHN AI Agent Memory — mhn-ai-agent-memory
+https://shahzebqazi.github.io/mhn-ai-agent-memory/
+Associative memory for AI agents using Modern Hopfield Networks; MCP server.
+
+Hopfield Networks — hopfield-networks
+https://shahzebqazi.github.io/hopfield-networks/
+Haskell implementation + Three.js energy landscape demo.
+
+PA2 × Android Auto — pa2-car-plugin
+https://shahzebqazi.github.io/pa2-car-plugin/
+Power Ampache 2 × Auto sandbox, mockups, and UX research.
+
+DevOps for the Horde — devops-for-the-horde
+https://sqazi.sh/devops-for-the-horde/
+Mac bootstrap hub, satellite repos, Cursor-first workflows.
+
+────────────────────────────────────────────────────────────────
+
+VENTURES (client-facing)
 
 Gear Acquisition Syndrome — Reverb shop (2019–present)
 https://reverb.com/shop/gearacquisitionsyndrome/
-DSP pedals and gear; client-facing listings and sales.
+DSP pedals and gear; listings and sales.
 
 Iconoclast Audio (2024–present)
 https://www.iconoclastaud.io/
-Mixing, mastering, and DSP—professional audio services and related web presence.
-
-Mystic Labs (2025–present)
-https://sqazi.sh/mystic-labs-ai/
-AI-focused project hub on this site (see Projects page for context).
+Mixing, mastering, and DSP—professional audio services.
 
 Gankmid Co. Studios (2026–present)
 https://www.gankmid.co/
-Game studio and gaming infrastructure interests (see site and Projects for dev builds and design work).
+Game studio and gaming infrastructure.
 
-Additional programming, AI, music-tech, and Linux projects: https://sqazi.sh/content.html?page=projects
-Source and activity: https://github.com/shahzebqazi
+Mystic Labs (2025–present)
+https://sqazi.sh/mystic-labs-ai/
+AI experiment hub (agent swarms, prompt tooling).
+
+────────────────────────────────────────────────────────────────
+
+CREATIVE & PUBLIC WORK
+
+• Published music — streaming and catalog links on the Links page (https://sqazi.sh/links.html).
+• Build notes — Mastodon (@willy@social.devilplan.com) and Matrix (@metalmasteringengineer:matrix.org).
+• Writing — Blog (https://sqazi.sh/content.html?page=blog); Papers page for formal citations when posted.
 
 ────────────────────────────────────────────────────────────────
 
 EDUCATION
 
 Toronto Metropolitan University (TMU)
-Honours Bachelor of Science, Computer Science
-Graduated with honours
-
-────────────────────────────────────────────────────────────────
-
-CREATIVE & PUBLIC WORK
-
-• Published music — streaming and catalog links are easiest to maintain via the Links page and project sites; inquire for specific credits or playlists.
-• Writing and notes: Blog (https://sqazi.sh/content.html?page=blog). The Papers page will list formal writing and citations when posted; for code and experiments in the meantime, see GitHub above.
+Honours Bachelor of Science, Computer Science — graduated with honours
 
 ────────────────────────────────────────────────────────────────
 
 CONTACT
 
 Professional inquiries: code@sqazi.sh
-Site: https://sqazi.sh · Links hub: https://sqazi.sh/links.html
+Site: https://sqazi.sh · Links: https://sqazi.sh/links.html

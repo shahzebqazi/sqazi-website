@@ -1,3 +1,22 @@
-Long-form posts are not mirrored on this static page yet. When they exist, summaries or links will show up here.
+Short notes and build logs. Long-form posts will land here when mirrored; for now these are the live surfaces.
 
-For now, the home page and Links page are the canonical “what I do” surfaces on this site.
+────────────────────────────────────────────────────────────────
+
+2026-05-22 — Portfolio curation (sqazi.sh)
+What changed: home page and Projects now lead with audio × software flagships instead of a flat repo dump. If you only read five repos, start with Song Pit, MHN agent memory, hopfield-networks, pa2-car-plugin, and devops-for-the-horde.
+
+────────────────────────────────────────────────────────────────
+
+2026-05 — Mastodon / Matrix
+Day-to-day build logs, gear notes, and half-finished thoughts live on Mastodon (@willy@social.devilplan.com) and Matrix (@metalmasteringengineer:matrix.org) before they become blog posts.
+
+────────────────────────────────────────────────────────────────
+
+Coming soon (draft topics)
+• Roasting my own GitHub graveyard — which repos matter and why
+• Strix Halo + CachyOS daily driver — keyboard, tiling, and agent harness setup
+• Song Pit walkthrough — self-hosted upload flow for mastering clients
+
+────────────────────────────────────────────────────────────────
+
+Canonical “what I do” pages: Home (https://sqazi.sh/) · Projects · Links (https://sqazi.sh/links.html)
