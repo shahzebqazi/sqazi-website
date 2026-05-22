@@ -16,7 +16,7 @@ Source: https://github.com/shahzebqazi
 CORE STRENGTHS
 
 • Audio: mixing and mastering, DSP, plugin and workflow tooling; Reverb shop sales and client communication.
-• Music-tech software: Android Auto UX research (PA2), VST UI experiments, Iconoclast web hub.
+• Music-tech software: Neck Diagram Studio (fretboard editor), Android Auto UX (PA2), VST UI experiments.
 • AI / agents: toy Hopfield memory (MCP), mystic-ai branches, public cursor-agents catalog.
 • Systems: my-mac-config Mac bootstrap hub; CachyOS + Cosmic; Zinwa Q25 keyboard firmware.
 
@@ -47,6 +47,10 @@ Q25 fork of FUTO Keyboard.
 MHN AI Agent Memory — mhn-ai-agent-memory (toy / research)
 https://shahzebqazi.github.io/mhn-ai-agent-memory/
 Hopfield-network associative memory; MCP for small fact stores.
+
+Neck Diagram Studio
+https://gitlab.com/destroyerofworlds/neck-diagram-studio
+Fretboard diagram editor (Next.js): scales, chords, tunings, export. Frontend shipped; backend planned.
 
 ────────────────────────────────────────────────────────────────
 
