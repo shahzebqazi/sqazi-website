@@ -3,7 +3,7 @@ Short notes and build logs. Long-form posts will land here when mirrored; for no
 ────────────────────────────────────────────────────────────────
 
 2026-05-22 — Repo consolidation (sqazi.sh + GitHub)
-What changed: Projects and profile README now match six pinned repos — cursor-agents, my-mac-config, iconoclast-vst-ui, pa2-car-plugin, zinwa-q25-keyboard, mhn-ai-agent-memory. Mac harnesses merged into my-mac-config; Linux dotfiles moved to private linux-config; Gankmid dev repos in private game-dev with public gankmid-co hub.
+What changed: Projects and profile README now match six pinned repos — mac-config, cursor-config, cursor-agents, PowerAmpache2PluginTemplate, zinwa-q25-keyboard, mhn-ai-agent-memory. Private operator hubs: my-mac-config, my-cursor-config. mystic-ai reframed as AI harness mockups. Iconoclast Audio and PA2 fork lead the CV experience highlights.
 
 ────────────────────────────────────────────────────────────────
 

@@ -6,16 +6,16 @@ Curated portfolio: [sqazi.sh/content.html?page=projects](https://sqazi.sh/conten
 
 **Pinned repos (GitHub profile)**
 
+- [mac-config](https://github.com/shahzebqazi/mac-config) — public Mac bootstrap patterns
+- [cursor-config](https://github.com/shahzebqazi/cursor-config) — public Cursor workspace examples
 - [cursor-agents](https://github.com/shahzebqazi/cursor-agents) — Mastodon + MPD agent tools
-- [my-mac-config](https://github.com/shahzebqazi/my-mac-config) — Mac bootstrap hub (Horde art)
-- [iconoclast-vst-ui](https://shahzebqazi.github.io/iconoclast-vst-ui/) — VST plugin UI
-- [pa2-car-plugin](https://shahzebqazi.github.io/pa2-car-plugin/) — Power Ampache 2 × Android Auto UX
+- [PowerAmpache2PluginTemplate](https://github.com/shahzebqazi/PowerAmpache2PluginTemplate) — Power Ampache 2 × Android Auto
 - [zinwa-q25-keyboard](https://github.com/shahzebqazi/zinwa-q25-keyboard) — Q25 firmware fork
 - [mhn-ai-agent-memory](https://shahzebqazi.github.io/mhn-ai-agent-memory/) — toy Hopfield agent memory (MCP)
 
 **Audio.** [Iconoclast Audio](https://www.iconoclastaud.io/) · [Reverb shop](https://reverb.com/shop/gearacquisitionsyndrome/)
 
-**Systems.** CachyOS + Cosmic on Strix Halo, MacBook Pro, Zinwa Q25 — harnesses in my-mac-config.
+**Systems.** CachyOS + Cosmic on Strix Halo, MacBook Pro, Zinwa Q25 — public patterns in mac-config; private operator hubs off-repo.
 
 **Games.** [Gankmid Co. Studios](https://www.gankmid.co/) · public hub [gankmid-co](https://github.com/shahzebqazi/gankmid-co)
 

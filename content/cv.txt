@@ -16,29 +16,45 @@ Source: https://github.com/shahzebqazi
 CORE STRENGTHS
 
 • Audio: mixing and mastering, DSP, plugin and workflow tooling; Reverb shop sales and client communication.
-• Music-tech software: Neck Diagram Studio (fretboard editor), Android Auto UX (PA2), VST UI experiments.
-• AI / agents: toy Hopfield memory (MCP), mystic-ai branches, public cursor-agents catalog.
-• Systems: my-mac-config Mac bootstrap hub; CachyOS + Cosmic; Zinwa Q25 keyboard firmware.
+• Music-tech software: Neck Diagram Studio (fretboard editor), Power Ampache 2 × Android Auto (PA2 fork), VST UI experiments.
+• AI / agents: toy Hopfield memory (MCP), AI harness mockups (mystic-ai), public cursor-agents + cursor-config patterns.
+• Systems: mac-config Mac bootstrap patterns; CachyOS + Cosmic; Zinwa Q25 keyboard firmware.
+
+────────────────────────────────────────────────────────────────
+
+EXPERIENCE (highlights)
+
+Iconoclast Audio — Mastering Engineer (2024–present)
+https://www.iconoclastaud.io/
+Mixing, mastering, and DSP—client-facing studio work and production platform (Ampache, Nextcloud, homelab delivery).
+
+Power Ampache 2 — Plugin Template (fork) (2026)
+https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
+FOSS Android Auto × Power Ampache 2 plugin template; UX research and mockups at https://shahzebqazi.github.io/pa2-car-plugin/
 
 ────────────────────────────────────────────────────────────────
 
 SELECTED PROJECTS (code — pinned)
 
+mac-config
+https://github.com/shahzebqazi/mac-config
+Public Mac bootstrap patterns (sanitized examples; private operator hub is my-mac-config).
+
+cursor-config
+https://github.com/shahzebqazi/cursor-config
+Public Cursor workspace patterns—examples and docs without machine-specific infra.
+
 cursor-agents
 https://github.com/shahzebqazi/cursor-agents
 Public agent tools: Mastodon posting + LAN MPD music agent.
 
-my-mac-config
-https://github.com/shahzebqazi/my-mac-config
-Mac bootstrap hub (Horde art): harnesses, hotkeys, dotfiles.
+Power Ampache 2 — PowerAmpache2PluginTemplate
+https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
+Android Auto plugin template + UX sandbox: https://shahzebqazi.github.io/pa2-car-plugin/
 
-iconoclast-vst-ui
-https://shahzebqazi.github.io/iconoclast-vst-ui/
-VST plugin UI experiments.
-
-PA2 × Android Auto — pa2-car-plugin
-https://shahzebqazi.github.io/pa2-car-plugin/
-Power Ampache 2 × Auto sandbox, mockups, UX research.
+iconoclast-vst-ui (experiments)
+https://www.iconoclastaud.io/
+VST plugin UI experiments (studio site; full sources in private iconoclast repo).
 
 zinwa-q25-keyboard
 https://github.com/shahzebqazi/zinwa-q25-keyboard
@@ -56,21 +72,25 @@ Fretboard diagram editor (Next.js): scales, chords, tunings, export. Frontend sh
 
 VENTURES (client-facing)
 
-Gear Acquisition Syndrome — Reverb shop (2019–present)
-https://reverb.com/shop/gearacquisitionsyndrome/
-DSP pedals and gear; listings and sales.
-
 Iconoclast Audio (2024–present)
 https://www.iconoclastaud.io/
 Mixing, mastering, and DSP—professional audio services.
+
+Power Ampache 2 — Plugin Template (2026)
+https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
+Open-source Android Auto × PA2 plugin template and in-car UX research.
+
+Gear Acquisition Syndrome — Reverb shop (2019–present)
+https://reverb.com/shop/gearacquisitionsyndrome/
+DSP pedals and gear; listings and sales.
 
 Gankmid Co. Studios (2026–present)
 https://www.gankmid.co/
 Game studio and gaming infrastructure.
 
-Mystic Labs (2025–present)
-https://sqazi.sh/mystic-ai/
-AI experiment hub (agent swarms, prompt tooling).
+AI harness mockups — mystic-ai (2025–present)
+https://github.com/shahzebqazi/mystic-ai
+Prototype branches for agent orchestration, search UI, and prompt tooling—not a product company.
 
 ────────────────────────────────────────────────────────────────
 
