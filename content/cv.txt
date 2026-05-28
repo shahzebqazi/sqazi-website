@@ -17,7 +17,7 @@ CORE STRENGTHS
 
 • Audio: mixing and mastering, DSP, plugin and workflow tooling; Reverb shop sales and client communication.
 • Music-tech software: Neck Diagram Studio (fretboard editor), Power Ampache 2 × Android Auto (PA2 fork), VST UI experiments.
-• AI / agents: toy Hopfield memory (MCP), AI harness mockups (mystic-ai), public cursor-agents + cursor-config patterns.
+• AI / agents: toy Hopfield memory (MCP); mystic-ai design showcase (brand pipeline, UX mockups); cursor-agents + cursor-config for shippable agents.
 • Systems: mac-config Mac bootstrap patterns; CachyOS + Cosmic; Zinwa Q25 keyboard firmware.
 
 ────────────────────────────────────────────────────────────────
@@ -88,9 +88,9 @@ Gankmid Co. Studios (2026–present)
 https://www.gankmid.co/
 Game studio and gaming infrastructure.
 
-AI harness mockups — mystic-ai (2025–present)
-https://github.com/shahzebqazi/mystic-ai
-Prototype branches for agent orchestration, search UI, and prompt tooling—not a product company.
+mystic-ai — design & UX showcase (2025–present)
+https://github.com/shahzebqazi/mystic-ai · https://shahzebqazi.github.io/mystic-ai/
+Brand-system codegen, desktop UX mockups, design guide; archived AI/search experiments. Shippable agents: cursor-agents.
 
 ────────────────────────────────────────────────────────────────
 
