@@ -1,115 +1,88 @@
 Willy Worst
 Toronto, Ontario, Canada
-code@sqazi.sh · https://sqazi.sh
+code@sqazi.sh · https://sqazi.sh · https://www.linkedin.com/in/willyworst
 
 ────────────────────────────────────────────────────────────────
 
 PROFESSIONAL SUMMARY
 
-Mastering engineer and programmer. I combine client-facing audio work (mixing, mastering, DSP, gear) with shipped open-source music-tech and agent tooling. Best fit: small teams building software where audio is the product or the workflow—not generic résumé stat-stacking.
+Software engineer and AI agent builder (Honours B.Sc. CS, TMU). Python, TypeScript, Kotlin; React/Next.js. Open to Software Engineer, AI Engineer, platform/backend — Toronto hybrid or remote.
 
-Representative work: https://sqazi.sh/content.html?page=projects
-Source: https://github.com/shahzebqazi
+One-line audio: mastering studio at iconoclastaud.io (full CV there, not here).
 
 ────────────────────────────────────────────────────────────────
 
 CORE STRENGTHS
 
-• Audio: mixing and mastering, DSP, plugin and workflow tooling; Reverb shop sales and client communication.
-• Music-tech software: Neck Diagram Studio (fretboard editor), Power Ampache 2 × Android Auto (PA2 fork), VST UI experiments.
-• AI / agents: toy Hopfield memory (MCP); mystic-ai design showcase (brand pipeline, UX mockups); cursor-agents + cursor-config for shippable agents.
-• Systems: mac-config Mac bootstrap patterns; CachyOS + Cosmic; Zinwa Q25 keyboard firmware.
+SWE — backends, APIs, Next.js, Kotlin/Android, open source
+AI — agents, MCP, Hopfield memory research, automation tooling
+Systems — Linux/macOS, homelab, declarative config (exiler-dotfiles)
+Infra — DigitalOcean, Docker/Caddy stacks, client delivery pipelines
+Hardware — Q25 keyboard firmware, mobile device UX
+Artist / Creative — audio production workflow; bands on iconoclastaud.io
+Agile / XP — iterative delivery, small batches, client revision cycles
 
 ────────────────────────────────────────────────────────────────
 
-EXPERIENCE (highlights)
+EXPERIENCE
 
-Iconoclast Audio — Mastering Engineer (2024–present)
-https://www.iconoclastaud.io/
-Mixing, mastering, and DSP—client-facing studio work and production platform (Ampache, Nextcloud, homelab delivery).
-
-Power Ampache 2 — Plugin Template (fork) (2026)
+Power Ampache 2 — Open-source Contributor — Android Auto Plugin
+March 2026 – Present
 https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
-FOSS Android Auto × Power Ampache 2 plugin template; UX research and mockups at https://shahzebqazi.github.io/pa2-car-plugin/
+• Kotlin Android Auto plugin template; MediaLibraryService, IPC with host app.
+• UX sandbox: https://shahzebqazi.github.io/pa2-car-plugin/
+
+Iconoclast Audio — Founder — Mastering Engineer
+January 2024 – Present · Toronto, ON
+https://www.iconoclastaud.io/
+• Mixing, mastering, stem mastering, restoration, studio consulting (solo + contractors).
+• Client platform: Mac + DO + homelab — Nextcloud, Ampache, MusicBrainz/Picard; 2 revisions, ~3–5 day turnaround.
+• Engineering hub: https://shahzebqazi.github.io/iconoclast-vst-ui/
 
 ────────────────────────────────────────────────────────────────
 
-SELECTED PROJECTS (code — pinned)
+SELECTED PROJECTS
 
-mac-config
-https://github.com/shahzebqazi/mac-config
-Public Mac bootstrap patterns (sanitized examples; private operator hub is my-mac-config).
+Iconoclast Audio — Studio, Platform & Commerce
+https://www.iconoclastaud.io/
 
-cursor-config
-https://github.com/shahzebqazi/cursor-config
-Public Cursor workspace patterns—examples and docs without machine-specific infra.
-
-cursor-agents
+cursor-agents — AI Agent Toolkit
 https://github.com/shahzebqazi/cursor-agents
-Public agent tools: Mastodon posting + LAN MPD music agent.
 
-Power Ampache 2 — PowerAmpache2PluginTemplate
-https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
-Android Auto plugin template + UX sandbox: https://shahzebqazi.github.io/pa2-car-plugin/
-
-iconoclast-vst-ui (experiments)
-https://www.iconoclastaud.io/
-VST plugin UI experiments (studio site; full sources in private iconoclast repo).
-
-zinwa-q25-keyboard
-https://github.com/shahzebqazi/zinwa-q25-keyboard
-Q25 fork of FUTO Keyboard.
-
-MHN AI Agent Memory — mhn-ai-agent-memory (toy / research)
-https://shahzebqazi.github.io/mhn-ai-agent-memory/
-Hopfield-network associative memory; MCP for small fact stores.
-
-Neck Diagram Studio
-https://sqazi.sh/neck-diagram-studio/
-Fretboard diagram editor (Next.js): scales, chords, tunings, export. Frontend shipped; backend planned.
-
-────────────────────────────────────────────────────────────────
-
-VENTURES (client-facing)
-
-Iconoclast Audio (2024–present)
-https://www.iconoclastaud.io/
-Mixing, mastering, and DSP—professional audio services.
-
-Power Ampache 2 — Plugin Template (2026)
-https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
-Open-source Android Auto × PA2 plugin template and in-car UX research.
-
-Gear Acquisition Syndrome — Reverb shop (2019–present)
-https://reverb.com/shop/gearacquisitionsyndrome/
-DSP pedals and gear; listings and sales.
-
-Gankmid Co. Studios (2026–present)
-https://www.gankmid.co/
-Game studio and gaming infrastructure.
-
-mystic-ai — design & UX showcase (2025–present)
+Mystic — Brand System & Desktop UX Showcase
 https://github.com/shahzebqazi/mystic-ai · https://shahzebqazi.github.io/mystic-ai/
-Brand-system codegen, desktop UX mockups, design guide; archived AI/search experiments. Shippable agents: cursor-agents.
+
+MHN AI Agent Memory — Hopfield Research & MCP
+https://github.com/shahzebqazi/mhn-ai-agent-memory
+
+Neck Diagram Studio — Fretboard Web App
+https://sqazi.sh/neck-diagram-studio/
+
+exiler-dotfiles — Elixir, Category Theory & Systems DX
+https://github.com/shahzebqazi/exiler-dotfiles
+
+zinwa-q25-keyboard — Firmware & Mobile UX
+https://github.com/shahzebqazi/zinwa-q25-keyboard
+
+Power Ampache 2 — Android Auto Plugin Template
+https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
 
 ────────────────────────────────────────────────────────────────
 
-CREATIVE & PUBLIC WORK
+VENTURES
 
-• Published music — streaming and catalog links on the Links page (https://sqazi.sh/links.html).
-• Build notes — Mastodon (@willy@social.devilplan.com) and Matrix (@metalmasteringengineer:matrix.org).
-• Writing — Blog (https://sqazi.sh/content.html?page=blog); Papers page for formal citations when posted.
+Iconoclast Audio — https://www.iconoclastaud.io/
+Gankmid Co. — https://www.gankmid.co/
+Gear Acquisition Syndrome (Reverb) — https://reverb.com/shop/gearacquisitionsyndrome/
 
 ────────────────────────────────────────────────────────────────
 
 EDUCATION
 
-Toronto Metropolitan University (TMU)
-Honours Bachelor of Science, Computer Science — graduated with honours
+Toronto Metropolitan University — Honours B.Sc., Computer Science
 
 ────────────────────────────────────────────────────────────────
 
 CONTACT
 
-Professional inquiries: code@sqazi.sh
-Site: https://sqazi.sh · Links: https://sqazi.sh/links.html
+code@sqazi.sh · CV: https://sqazi.sh/content.html?page=cv

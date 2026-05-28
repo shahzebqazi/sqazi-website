@@ -3,41 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Willy Worst — software engineer and portfolio (sqazi.sh).">
 <title>sqazi.sh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<script>
+(function(){var k="sqazi-theme",t;try{t=localStorage.getItem(k);}catch(e){}if(t!=="latte"&&t!=="mocha")t=matchMedia("(prefers-color-scheme:light)").matches?"latte":"mocha";document.documentElement.setAttribute("data-theme",t);})();
+</script>
+<link rel="stylesheet" href="assets/css/catppuccin.css">
+<link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
 
-<header>
-<h1>Willy Worst</h1>
+<header class="site-header">
+<div class="site-header__inner">
+<h1 class="site-brand"><a href="index.html">Willy Worst</a></h1>
+<div class="site-header__bar">
+<nav class="site-nav" aria-label="Primary">
+<a href="index.html" aria-current="page">Home</a>
+<span class="site-nav__sep" aria-hidden="true">/</span>
+<a href="content.html?page=projects">Projects</a>
+<span class="site-nav__sep" aria-hidden="true">/</span>
+<a href="content.html?page=cv">CV</a>
+<span class="site-nav__sep" aria-hidden="true">/</span>
+<a href="content.html?page=blog">Blog</a>
+<span class="site-nav__sep" aria-hidden="true">/</span>
+<a href="links.html">Links</a>
+</nav>
+<button type="button" class="theme-toggle" id="theme-toggle">Latte</button>
+</div>
+</div>
 </header>
 
-<nav>
-<a href="index.html">Home</a> /
-<a href="links.html">Links</a> /
-<a href="content.html?page=projects">Projects</a> /
-<a href="content.html?page=papers">Papers</a> /
-<a href="content.html?page=cv">CV</a> /
-<a href="content.html?page=blog">Blog</a>
-</nav>
-
-<hr>
-
-<main>
+<main class="site-main">
 <h1>About</h1>
 
-<p>Mastering engineer and programmer in Toronto. I build audio software&mdash;DSP, plugins, self-hosted music infra, and the agent tooling around it. Music is the career; code is how I ship the weird side projects.</p>
+<p><strong>Software engineer · AI agents</strong> in Toronto (Honours B.Sc. CS, TMU). Python, TypeScript, Kotlin; backends, MCP tooling, and music-tech where it ships. Résumé: <a href="content.html?page=cv">CV</a> · <a href="content.html?page=projects">Projects</a>.</p>
 
-<p>I have a lot of GitHub repos. A handful actually matter&mdash;see <a href="content.html?page=projects">Projects</a> for the curated list.</p>
+<p><strong>Agents &amp; tooling.</strong> Public <a href="https://github.com/shahzebqazi/cursor-agents">cursor-agents</a> monorepo; <a href="https://github.com/shahzebqazi/mhn-ai-agent-memory">mhn-ai-agent-memory</a> (Hopfield research toy + MCP); <a href="https://github.com/shahzebqazi/mystic-ai">mystic-ai</a> <a href="https://shahzebqazi.github.io/mystic-ai/">UX showcase</a>.</p>
 
-<p><strong>Audio.</strong> Mixing and mastering, DSP, and gear through <a href="https://www.iconoclastaud.io/">Iconoclast Audio</a> and <a href="https://reverb.com/shop/gearacquisitionsyndrome/">my Reverb shop</a> (DSP pedals and gear). Code: <a href="https://sqazi.sh/neck-diagram-studio/">Neck Diagram Studio</a>, <a href="https://github.com/shahzebqazi/PowerAmpache2PluginTemplate">Power Ampache 2 plugin template</a> (Android Auto UX at <a href="https://shahzebqazi.github.io/pa2-car-plugin/">pa2-car-plugin</a>).</p>
+<p><strong>Music-tech.</strong> <a href="https://sqazi.sh/neck-diagram-studio/">Neck Diagram Studio</a>; <a href="https://github.com/shahzebqazi/PowerAmpache2PluginTemplate">Power Ampache 2</a> Android Auto template (<a href="https://shahzebqazi.github.io/pa2-car-plugin/">pa2-car-plugin</a>); <a href="https://github.com/shahzebqazi/zinwa-q25-keyboard">zinwa-q25-keyboard</a>.</p>
 
-<p><strong>AI and agents.</strong> Toy Hopfield agent memory (<a href="https://shahzebqazi.github.io/mhn-ai-agent-memory/">mhn-ai-agent-memory</a>), <a href="https://github.com/shahzebqazi/mystic-ai">mystic-ai</a> design showcase (<a href="https://shahzebqazi.github.io/mystic-ai/">UX demo</a>), public <a href="https://github.com/shahzebqazi/cursor-agents">cursor-agents</a> and <a href="https://github.com/shahzebqazi/cursor-config">cursor-config</a>. I primarily use Cursor and care about HCI around a &ldquo;hand-made feel&rdquo;.</p>
-
-<p><strong>Math and theory.</strong> Category theory, symbolic reasoning, dimensionality reduction, Cauchy sequences, Hilbert spaces, dagger symmetries, and complex analysis&mdash;often with audio as the motivating lens. Hopfield-network demo lives under <a href="https://shahzebqazi.github.io/mhn-ai-agent-memory/">mhn-ai-agent-memory</a>.</p>
-
-<p><strong>Systems.</strong> <a href="https://github.com/shahzebqazi/mac-config">mac-config</a> public Mac patterns (private <code>my-mac-config</code> hub); CachyOS + Cosmic on Strix Halo; Zinwa Q25.</p>
-
-<p><strong>Games.</strong> <a href="https://www.gankmid.co/">Gankmid Co. Studios</a>.</p>
+<p><strong>Audio (clients):</strong> <a href="https://www.iconoclastaud.io/">Iconoclast Audio</a> mastering and studio work&mdash;full services CV on that site, not here.</p>
 
 <p>Email <a href="mailto:code@sqazi.sh">code@sqazi.sh</a>. Build logs and shorter notes on <a href="https://social.devilplan.com/@willy">Mastodon</a> and <a href="https://matrix.to/#/@metalmasteringengineer:matrix.org">Matrix</a>; more links on the <a href="links.html">Links</a> page and <a href="https://www.instagram.com/kongposhmosh/">Instagram</a>.</p>
 
@@ -45,10 +53,12 @@
 <p>If you want to say thanks or help cover hosting costs, you can <a href="mailto:code@sqazi.sh?subject=Support">get in touch</a>; I will add a clearer option here when I have one.</p>
 </main>
 
-<hr>
-
-<footer>
+<footer class="site-footer">
+<div class="site-footer__inner">
+<p><a href="mailto:code@sqazi.sh">code@sqazi.sh</a> · <a href="https://sqazi.sh">sqazi.sh</a> · <a href="content.html?page=cv">CV</a></p>
+</div>
 </footer>
 
+<script src="assets/js/theme.js"></script>
 </body>
 </html>

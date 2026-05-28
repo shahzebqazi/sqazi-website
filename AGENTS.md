@@ -20,6 +20,7 @@ Treat the project board as the **canonical task list**; this repo’s issues and
 
 - **Static GitHub Pages** site: plain HTML files at the repo root, no bundler.
 - **Custom domain:** `sqazi.sh` (see `CNAME`). Live site is deployed from the **`main`** branch.
+- **CV:** [sqazi.sh/content.html?page=cv](https://sqazi.sh/content.html?page=cv) — edit `content/cv.txt`; see [`docs/BRANDING.md`](docs/BRANDING.md).
 - **“Dynamic” pages:** `content.html?page=…` loads content via `fetch`. **Projects** uses `content/projects.html` (HTML + scoped CSS injected by script); **Papers, CV, Blog** use `content/*.txt` as plain text in a monospace block. There is no server-side rendering.
 
 ## Repo map

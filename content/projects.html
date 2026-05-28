@@ -1,184 +1,48 @@
-<style id="projects-inline-style">
-.projects-page { max-width: 40rem; }
-.projects-intro {
-  margin: 0 0 1.25rem;
-  padding: 0.75rem 1rem;
-  border-left: 3px solid #ccc;
-  background: #f6f6f6;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-@media (prefers-color-scheme: dark) {
-  .projects-intro {
-    border-left-color: #555;
-    background: #1a1a1a;
-  }
-}
-.projects-section { margin-top: 1.75rem; }
-.projects-section h2 {
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin: 0 0 0.65rem;
-  padding-bottom: 0.25rem;
-  border-bottom: 1px solid #ddd;
-}
-@media (prefers-color-scheme: dark) {
-  .projects-section h2 { border-bottom-color: #444; }
-}
-.projects-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.projects-list > li {
-  margin: 0 0 1rem;
-  padding: 0.65rem 0.85rem;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  background: #fafafa;
-}
-@media (prefers-color-scheme: dark) {
-  .projects-list > li {
-    border-color: #333;
-    background: #141414;
-  }
-}
-.project-title {
-  font-weight: 600;
-  text-decoration: none;
-}
-.project-title:hover { text-decoration: underline; }
-.project-meta {
-  display: block;
-  font-size: 0.88rem;
-  color: #555;
-  margin-top: 0.2rem;
-}
-@media (prefers-color-scheme: dark) {
-  .project-meta { color: #aaa; }
-}
-.project-desc {
-  margin: 0.45rem 0 0;
-  font-size: 0.9rem;
-  line-height: 1.45;
-  color: #333;
-}
-@media (prefers-color-scheme: dark) {
-  .project-desc { color: #c8c8c8; }
-}
-.projects-note {
-  font-size: 0.9rem;
-  margin: 0 0 0.75rem;
-  color: #555;
-}
-@media (prefers-color-scheme: dark) {
-  .projects-note { color: #aaa; }
-}
-</style>
-
 <div class="projects-page">
-<p class="projects-intro">Curated portfolio&mdash;audio &times; software first. Pinned GitHub repos match the flagship list below. Full activity: <a href="https://github.com/shahzebqazi">GitHub</a>.</p>
+<p class="projects-intro">Selected software work&mdash;1:1 with <a href="content.html?page=cv">CV</a>. Full activity: <a href="https://github.com/shahzebqazi">GitHub</a>.</p>
 
-<section class="projects-section" aria-labelledby="sec-flagship">
-<h2 id="sec-flagship">Flagship (pinned)</h2>
-<ul class="projects-list">
-<li>
-<a class="project-title" href="https://github.com/shahzebqazi/mac-config">mac-config</a>
-<span class="project-meta">GitHub · macOS</span>
-<p class="project-desc">Public Mac bootstrap patterns&mdash;sanitized examples (AeroSpace, harness templates). Full operator hub is private <code>my-mac-config</code>.</p>
-</li>
-<li>
-<a class="project-title" href="https://github.com/shahzebqazi/cursor-config">cursor-config</a>
-<span class="project-meta">GitHub · Cursor workspace</span>
-<p class="project-desc">Public mirror of workspace docs and examples&mdash;no hostnames, tokens, or personal <code>~/Git</code> trees. Private operator layer: <code>my-cursor-config</code>.</p>
-</li>
-<li>
-<a class="project-title" href="https://github.com/shahzebqazi/cursor-agents">cursor-agents</a>
-<span class="project-meta">GitHub · agents</span>
-<p class="project-desc">Public Cursor agent tools: Mastodon posting (hero art preserved) and LAN MPD music streaming agent.</p>
-</li>
-<li>
-<a class="project-title" href="https://github.com/shahzebqazi/PowerAmpache2PluginTemplate">PowerAmpache2PluginTemplate</a>
-<span class="project-meta">GitHub · music-tech / Android Auto</span>
-<p class="project-desc">Power Ampache 2 &times; Android Auto plugin template (fork). UX sandbox and mockups: <a href="https://shahzebqazi.github.io/pa2-car-plugin/">pa2-car-plugin</a>.</p>
-</li>
-<li>
-<a class="project-title" href="https://github.com/shahzebqazi/zinwa-q25-keyboard">zinwa-q25-keyboard</a>
-<span class="project-meta">GitHub · hardware</span>
-<p class="project-desc">Zinwa Q25 fork of FUTO Keyboard&mdash;40% layout and firmware experiments.</p>
-</li>
-<li>
-<a class="project-title" href="https://shahzebqazi.github.io/mhn-ai-agent-memory/">mhn-ai-agent-memory</a>
-<span class="project-meta">github.io · toy / research AI</span>
-<p class="project-desc">Toy Hopfield-network agent memory (MCP). Small fact stores and learning&mdash;not production RAG.</p>
-</li>
-</ul>
-</section>
-
-<section class="projects-section" aria-labelledby="sec-music">
-<h2 id="sec-music">Music &amp; audio-tech</h2>
+<section class="projects-section" aria-labelledby="sec-selected">
+<h2 id="sec-selected">Selected projects</h2>
 <ul class="projects-list">
 <li>
 <a class="project-title" href="https://www.iconoclastaud.io/">Iconoclast Audio</a>
-<span class="project-meta">services · primary</span>
-<p class="project-desc">Mixing, mastering, and DSP&mdash;client-facing studio work (canonical site).</p>
+<span class="project-meta">studio · platform · commerce</span>
+<p class="project-desc">Recording, mixing, mastering, restoration, and studio consulting&mdash;plus client ops (Nextcloud, Ampache, homelab delivery). <a href="https://shahzebqazi.github.io/iconoclast-vst-ui/">VST UX experiments</a>.</p>
 </li>
 <li>
-<a class="project-title" href="https://sqazi.sh/neck-diagram-studio/">Neck Diagram Studio</a>
-<span class="project-meta">sqazi.sh · music-ed / UX</span>
-<p class="project-desc">Fretboard diagram editor (Next.js): scales, chords, tunings, PNG/PDF export. Frontend in repo; backend planned.</p>
+<a class="project-title" href="https://github.com/shahzebqazi/cursor-agents">cursor-agents</a>
+<span class="project-meta">GitHub · AI agents</span>
+<p class="project-desc">Public Cursor agent monorepo: git-workspace, DigitalOcean ops, Pi/headless patterns, Mastodon posting, LAN MPD.</p>
 </li>
-<li>
-<a class="project-title" href="https://shahzebqazi.github.io/pa2-car-plugin/">pa2-car-plugin</a>
-<span class="project-meta">github.io · UX research</span>
-<p class="project-desc">Power Ampache 2 &times; Android Auto sandbox, mockups, and in-car UX research (companion to the PA2 template repo).</p>
-</li>
-<li>
-<a class="project-title" href="https://www.iconoclastaud.io/">iconoclast-vst-ui</a>
-<span class="project-meta">studio · audio UI</span>
-<p class="project-desc">VST plugin UI experiments&mdash;public face is the Iconoclast site; full sources live in a private repo branch.</p>
-</li>
-<li>
-<a class="project-title" href="https://reverb.com/shop/gearacquisitionsyndrome/">Gear Acquisition Syndrome</a>
-<span class="project-meta">Reverb shop</span>
-<p class="project-desc">DSP pedals and gear listings.</p>
-</li>
-</ul>
-</section>
-
-<section class="projects-section" aria-labelledby="sec-ai">
-<h2 id="sec-ai">AI experiments</h2>
-<ul class="projects-list">
 <li>
 <a class="project-title" href="https://github.com/shahzebqazi/mystic-ai">mystic-ai</a>
 <span class="project-meta">GitHub · <a href="https://shahzebqazi.github.io/mystic-ai/">UX demo</a></span>
-<p class="project-desc">Design showcase: brand-system codegen, desktop UX mockups, design guide. Archived search/MLX spikes; shippable agents live in cursor-agents.</p>
-</li>
-</ul>
-</section>
-
-<section class="projects-section" aria-labelledby="sec-other">
-<h2 id="sec-other">Other public work</h2>
-<ul class="projects-list">
-<li>
-<a class="project-title" href="https://sqazi.sh/">This site</a>
-<span class="project-meta">shahzebqazi.github.io</span>
-<p class="project-desc">Personal site in raw semantic HTML.</p>
+<p class="project-desc">Brand-system codegen, desktop UX mockups, design guide. Shippable agents live in cursor-agents.</p>
 </li>
 <li>
-<a class="project-title" href="https://sqazi.sh/kashmiri-language-poetry/">kashmiri-language-poetry</a>
-<span class="project-meta">sqazi.sh</span>
-<p class="project-desc">Bilingual Kashmiri poetry archive (stays public).</p>
+<a class="project-title" href="https://github.com/shahzebqazi/mhn-ai-agent-memory">mhn-ai-agent-memory</a>
+<span class="project-meta">GitHub · research toy</span>
+<p class="project-desc">Modern Hopfield associative memory for small agent fact stores&mdash;MCP server; not production RAG. <a href="https://shahzebqazi.github.io/mhn-ai-agent-memory/">Demo</a>.</p>
 </li>
 <li>
-<a class="project-title" href="https://github.com/shahzebqazi/gankmid-co">gankmid-co</a>
-<span class="project-meta">GitHub · games</span>
-<p class="project-desc">Public Gankmid Co. hub; dev repos in private monorepo.</p>
+<a class="project-title" href="https://sqazi.sh/neck-diagram-studio/">Neck Diagram Studio</a>
+<span class="project-meta">sqazi.sh · Next.js</span>
+<p class="project-desc">Fretboard editor for guitar and bass&mdash;scales, chords, tunings, export. Frontend shipped; backend planned.</p>
 </li>
 <li>
-<a class="project-title" href="https://github.com/shahzebqazi/communicator-launcher">communicator-launcher</a>
-<span class="project-meta">GitHub · Android</span>
-<p class="project-desc">KISS launcher fork for Zinwa Q25 (formerly synesthesia).</p>
+<a class="project-title" href="https://github.com/shahzebqazi/exiler-dotfiles">exiler-dotfiles</a>
+<span class="project-meta">GitHub · Elixir · systems</span>
+<p class="project-desc">Elixir-native dotfiles and machine bootstrap&mdash;scaffold; install path in progress.</p>
+</li>
+<li>
+<a class="project-title" href="https://github.com/shahzebqazi/zinwa-q25-keyboard">zinwa-q25-keyboard</a>
+<span class="project-meta">GitHub · Android · hardware</span>
+<p class="project-desc">FUTO Keyboard fork for Zinwa Q25 (40%): firmware, flash workflow, communicator-class device UX.</p>
+</li>
+<li>
+<a class="project-title" href="https://github.com/shahzebqazi/PowerAmpache2PluginTemplate">Power Ampache 2 Plugin Template</a>
+<span class="project-meta">GitHub · Android Auto</span>
+<p class="project-desc">Kotlin plugin template&mdash;MediaLibraryService, IPC with host app. UX: <a href="https://shahzebqazi.github.io/pa2-car-plugin/">pa2-car-plugin</a>.</p>
 </li>
 </ul>
 </section>

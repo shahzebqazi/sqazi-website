@@ -1,5 +1,7 @@
 # Keeping Everything in Sync
 
+**Branding map:** [`docs/BRANDING.md`](docs/BRANDING.md) — sqazi.sh is the **canonical CV** (`content/cv.txt`); shahzeb.me is the link hub; LinkedIn/tailored CVs derive from the reference CV.
+
 Three things share your bio and need to stay consistent:
 
 | Surface | Repo | What renders |
@@ -16,6 +18,8 @@ Three things share your bio and need to stay consistent:
 2. Copy the same text (plain, no HTML) into `README.md` in the `shahzebqazi/shahzebqazi` repo.
 3. Push both repos.
 
+**Lane-A drift (2026-05-28):** Profile `shahzebqazi/README.md` is **SWE-first** (canonical 8, Catppuccin badges) per `docs/BRANDING.md`. Until P0-3 lands, `index.html` may still be audio-forward — align home lede to README/CV, then re-sync both surfaces.
+
 ## When you add a project, paper, blog post, or update your CV
 
 1. Edit the relevant file in `/content/` (e.g. `content/projects.html` for the Projects page, or `content/papers.txt`, etc.).
@@ -29,7 +33,7 @@ Outbound links live in a **separate** repository (its own GitHub Pages site). Ed
 2. If you want the same links on your GitHub profile, add them to the bottom of `README.md` in `shahzebqazi/shahzebqazi`.
 3. Push the links repo and the profile repo as needed.
 
-**Redirect in this repo:** `links.html` sends visitors to the published links site. By default it targets `https://shahzebqazi.github.io/links/` (adjust the `meta refresh`, `link rel="canonical"`, and body link if your links repo name or custom domain differs).
+**Redirect in this repo:** `links.html` sends visitors to **`https://shahzeb.me/`** (repo `shahzebqazi/links`). Adjust the `meta refresh`, `link rel="canonical"`, and body link if the link-hub domain changes.
 
 ---
 

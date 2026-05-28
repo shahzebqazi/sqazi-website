@@ -4,34 +4,49 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Content &mdash; sqazi.sh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<script>
+(function(){var k="sqazi-theme",t;try{t=localStorage.getItem(k);}catch(e){}if(t!=="latte"&&t!=="mocha")t=matchMedia("(prefers-color-scheme:light)").matches?"latte":"mocha";document.documentElement.setAttribute("data-theme",t);})();
+</script>
+<link rel="stylesheet" href="assets/css/catppuccin.css">
+<link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
 
-<header>
-<h1>Willy Worst</h1>
+<header class="site-header">
+<div class="site-header__inner">
+<h1 class="site-brand"><a href="index.html">Willy Worst</a></h1>
+<div class="site-header__bar">
+<nav class="site-nav" id="site-nav" aria-label="Primary">
+<a href="index.html" data-nav="home">Home</a>
+<span class="site-nav__sep" aria-hidden="true">/</span>
+<a href="content.html?page=projects" data-nav="projects">Projects</a>
+<span class="site-nav__sep" aria-hidden="true">/</span>
+<a href="content.html?page=cv" data-nav="cv">CV</a>
+<span class="site-nav__sep" aria-hidden="true">/</span>
+<a href="content.html?page=blog" data-nav="blog">Blog</a>
+<span class="site-nav__sep" aria-hidden="true">/</span>
+<a href="links.html" data-nav="links">Links</a>
+</nav>
+<button type="button" class="theme-toggle" id="theme-toggle">Latte</button>
+</div>
+</div>
 </header>
 
-<nav>
-<a href="index.html">Home</a> /
-<a href="links.html">Links</a> /
-<a href="content.html?page=projects">Projects</a> /
-<a href="content.html?page=papers">Papers</a> /
-<a href="content.html?page=cv">CV</a> /
-<a href="content.html?page=blog">Blog</a>
-</nav>
-
-<hr>
-
-<main>
+<main class="site-main">
 <h1 id="page-title">Loading...</h1>
 <div id="page-content">Fetching content...</div>
 </main>
 
-<hr>
-
-<footer>
+<footer class="site-footer">
+<div class="site-footer__inner">
+<p><a href="mailto:code@sqazi.sh">code@sqazi.sh</a> · <a href="https://sqazi.sh">sqazi.sh</a> · <a href="content.html?page=cv">CV</a></p>
+</div>
 </footer>
 
+<script src="assets/js/theme.js"></script>
 <script>
 (function () {
   var params = new URLSearchParams(window.location.search);
@@ -40,6 +55,12 @@
 
   var titleEl = document.getElementById("page-title");
   var contentEl = document.getElementById("page-content");
+  var nav = document.getElementById("site-nav");
+
+  if (nav && allowed.indexOf(page) !== -1) {
+    var active = nav.querySelector('[data-nav="' + page + '"]');
+    if (active) active.setAttribute("aria-current", "page");
+  }
 
   if (allowed.indexOf(page) === -1) {
     titleEl.textContent = "404";
@@ -61,10 +82,6 @@
       })
       .then(function (html) {
         var doc = new DOMParser().parseFromString(html, "text/html");
-        var styleEl = doc.getElementById("projects-inline-style");
-        if (styleEl && !document.getElementById("projects-inline-style")) {
-          document.head.appendChild(styleEl);
-        }
         var root = doc.querySelector(".projects-page");
         contentEl.className = "";
         if (root) {
@@ -96,17 +113,6 @@
     });
 })();
 </script>
-
-<style>
-.page-content--plain {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
-  font-size: 0.9rem;
-  line-height: 1.45;
-  margin: 0;
-}
-</style>
 
 </body>
 </html>
