@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="zinwa-q25-keyboard">
+  <rect width="128" height="128" rx="20" fill="#27272a"/>
+  <rect x="24" y="44" width="80" height="40" rx="6" fill="#3f3f46" stroke="#71717a" stroke-width="2"/>
+  <rect x="32" y="52" width="10" height="10" rx="2" fill="#a1a1aa"/>
+  <rect x="46" y="52" width="10" height="10" rx="2" fill="#a1a1aa"/>
+  <rect x="60" y="52" width="10" height="10" rx="2" fill="#a1a1aa"/>
+  <rect x="74" y="52" width="10" height="10" rx="2" fill="#a1a1aa"/>
+  <rect x="88" y="52" width="10" height="10" rx="2" fill="#a1a1aa"/>
+  <text x="64" y="108" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#d4d4d8">Q25</text>
+</svg>

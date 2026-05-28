@@ -16,7 +16,7 @@ CORE STRENGTHS
 
 SWE — backends, APIs, Next.js, Kotlin/Android, open source
 AI — agents, MCP, Hopfield memory research, automation tooling
-Systems — Linux/macOS, homelab, declarative config (exiler-dotfiles)
+Systems — Linux/macOS, homelab, xonsh profiles & declarative config (dotfiles)
 Infra — DigitalOcean, Docker/Caddy stacks, client delivery pipelines
 Hardware — Q25 keyboard firmware, mobile device UX
 Artist / Creative — audio production workflow; bands on iconoclastaud.io
@@ -32,7 +32,7 @@ https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
 • Kotlin Android Auto plugin template; MediaLibraryService, IPC with host app.
 • UX sandbox: https://shahzebqazi.github.io/pa2-car-plugin/
 
-Iconoclast Audio — Founder — Mastering Engineer
+Iconoclast Audio — Founder — Platform & Studio Engineering
 January 2024 – Present · Toronto, ON
 https://www.iconoclastaud.io/
 • Mixing, mastering, stem mastering, restoration, studio consulting (solo + contractors).
@@ -58,8 +58,8 @@ https://github.com/shahzebqazi/mhn-ai-agent-memory
 Neck Diagram Studio — Fretboard Web App
 https://sqazi.sh/neck-diagram-studio/
 
-exiler-dotfiles — Elixir, Category Theory & Systems DX
-https://github.com/shahzebqazi/exiler-dotfiles
+dotfiles — Xonsh Profiles, XDG Bootstrap & Systems DX
+https://github.com/shahzebqazi/dotfiles
 
 zinwa-q25-keyboard — Firmware & Mobile UX
 https://github.com/shahzebqazi/zinwa-q25-keyboard

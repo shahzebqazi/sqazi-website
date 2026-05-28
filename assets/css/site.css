@@ -266,18 +266,40 @@ code {
   gap: 0.75rem;
 }
 
-.projects-list > li {
+.projects-list > li,
+.projects-list > li.project-card {
   margin: 0;
-  padding: 0.85rem 1rem;
+  padding: 0;
   border: 1px solid var(--color-border);
   border-radius: 0.5rem;
   background: var(--color-bg-elevated);
   box-shadow: var(--shadow-sm);
   transition: border-color 0.15s ease;
+  overflow: hidden;
 }
 
-.projects-list > li:hover {
+.projects-list > li:hover,
+.projects-list > li.project-card:hover {
   border-color: var(--color-border-strong);
+}
+
+.project-hero-link {
+  display: block;
+  line-height: 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.project-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 10rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-card__body {
+  padding: 0.85rem 1rem;
 }
 
 .project-title {
