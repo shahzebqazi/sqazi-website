@@ -1,69 +1,58 @@
 # Branding audit tasks — sqazi.sh
 
-**Audit:** [`social/linkedin/docs/audits/2026-05-28-branding-audit.md`](../../social/linkedin/docs/audits/2026-05-28-branding-audit.md)  
+**Status:** 2026-05-30 — P0 closed; live matches repo  
+**Audit (historical):** [`social/linkedin/docs/audits/2026-05-28-branding-audit.md`](../../social/linkedin/docs/audits/2026-05-28-branding-audit.md)  
 **Canon:** `docs/BRANDING.md` · `../social/linkedin/docs/PROJECTS_CANON.md`
 
-**Drift:** Live `https://sqazi.sh/content/cv.txt` is audio-first + mac-config/cursor-config. Repo `content/cv.txt` is SWE lane-A + canonical 8.
+**Deploy:** `main` @ `92db5ce` (2026-05-30) — LinkedIn URL on canonical CV  
+**Verify:** `diff <(curl -sL https://sqazi.sh/content/cv.txt) content/cv.txt` → empty
 
-## P0-1 — Deploy `content/cv.txt`
+## P0-1 — Deploy `content/cv.txt` (closed 2026-05-30)
 
-- **Edit:** `content/cv.txt` (SWE canon in repo — do not rewrite facts)
-- **Action:** Commit if needed → push `main` → GitHub Pages
-- **Verify:** `curl -sL https://sqazi.sh/content/cv.txt | head -20` shows “Software engineer and AI agent builder” + `/in/lambdaqazi`
-- **Blocks:** LinkedIn Featured CV link; apply-agent `sqazi_cv` gate
-
-**Acceptance:**
-
-- [ ] Live raw CV matches repo (or diff documented)
-- [ ] https://sqazi.sh/content.html?page=cv shows updated summary
-
-## P0-2 — Rebuild `content/projects.html`
-
-- **Edit:** `content/projects.html`
-- **Remove from flagship:** mac-config, cursor-config
-- **Include (8):** Iconoclast Audio · cursor-agents · mystic-ai · mhn-ai-agent-memory · Neck Diagram Studio · exiler-dotfiles · zinwa-q25-keyboard · Power Ampache 2 Plugin Template
-- **Source:** `content/cv.txt` SELECTED PROJECTS + `PROJECTS_CANON.md`
+- **Live:** SWE summary, canonical 8, `https://www.linkedin.com/in/lambdaqazi`
+- **Blocks cleared:** LinkedIn Featured CV link; apply-agent `sqazi_cv` gate (operator may set in kanban)
 
 **Acceptance:**
 
-- [ ] https://sqazi.sh/content.html?page=projects lists exactly **8** canon projects
-- [ ] Intro is SWE-first
+- [x] Live raw CV matches repo
+- [x] https://sqazi.sh/content.html?page=cv shows updated summary
 
-## P0-3 — SWE-first home lede (`index.html`)
+## P0-2 — `content/projects.html` (closed 2026-05-28 deploy, verified 2026-05-30)
 
-- **Edit:** `index.html` About section (~lines 26–42)
-- **Lead:** Software engineer / AI · TMU CS · Toronto · CV + Projects links
-- **Audio:** One short paragraph → iconoclastaud.io; not “music is the career” as primary hook
-- **Theory block:** Remove or tie each bullet to a repo URL
-- **Sync:** `SYNC.md` → `../shahzebqazi/README.md` if narrative changes
-
-```html
-<p>Software engineer and AI agent builder in Toronto (Honours B.Sc. CS, TMU). I ship agents, backends, and music-tech in Python, TypeScript, and Kotlin. Résumé: <a href="content.html?page=cv">CV</a> · <a href="content.html?page=projects">Projects</a>.</p>
-<p><strong>Audio (clients).</strong> Mixing and mastering via <a href="https://www.iconoclastaud.io/">Iconoclast Audio</a> — full studio CV on that site, not here.</p>
-```
+- **Live:** 8 project cards, SWE-first intro; no mac-config / cursor-config
+- **Canon names:** Iconoclast Audio · cursor-agents · mystic-ai · mhn-ai-agent-memory · Neck Diagram Studio · **dotfiles** · zinwa-q25-keyboard · Power Ampache 2 Plugin Template
 
 **Acceptance:**
 
-- [ ] First screen answers “SWE portfolio” in <5 seconds
-- [ ] No contradiction with deployed `cv.txt`
+- [x] https://sqazi.sh/content.html?page=projects lists exactly **8** canon projects
+- [x] Intro is SWE-first
 
-## P1 — Post-deploy
+## P0-3 — SWE-first home lede (closed 2026-05-28 deploy, verified 2026-05-30)
 
-| Task | Command / URL |
-|------|----------------|
-| CV diff | `diff <(curl -sL https://sqazi.sh/content/cv.txt) content/cv.txt` |
-| Project URLs | Click all 8 from deployed projects page |
-| links redirect | https://sqazi.sh/links.html → shahzeb.me |
+- **Live `index.html`:** Software engineer · AI agents lead; audio deferred to iconoclastaud.io
+
+**Acceptance:**
+
+- [x] First screen answers “SWE portfolio” in under 5 seconds
+- [x] No contradiction with deployed `cv.txt`
+
+## P1 — Post-deploy (closed 2026-05-30)
+
+| Task | Status |
+|------|--------|
+| CV diff | [x] `diff` empty |
+| Project URLs | [x] 8 heroes on projects page |
+| links redirect | [x] https://sqazi.sh/links.html → shahzeb.me |
 
 Optional: pre-push or Action — fail if live `cv.txt` ≠ repo (`SYNC.md`).
 
-## P2 — GitHub profile README
+## P2 — GitHub profile README (open)
 
-SWE bio; pin canonical 8 per `PROJECTS_CANON.md` (separate repo if applicable).
+SWE bio; pin canonical 8 per `PROJECTS_CANON.md` — track in `shahzebqazi` repo (`README.md` updated 2026-05-30 for dotfiles + lambdaqazi).
 
 ## Gate (operator)
 
-When P0-1–P0-3 verified live, in `social/linkedin/kanban/batch-01-lane-a.yaml`:
+In `social/linkedin/kanban/batch-01-lane-a.yaml` when ready:
 
 - `global_gate.sqazi_cv: done`
 - `global_gate.portfolio_landing: done`
