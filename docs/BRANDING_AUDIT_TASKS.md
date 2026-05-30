@@ -1,7 +1,7 @@
 # Branding audit tasks — sqazi.sh
 
-**Audit:** [`my-linkedin/docs/audits/2026-05-28-branding-audit.md`](../../my-linkedin/docs/audits/2026-05-28-branding-audit.md)  
-**Canon:** `docs/BRANDING.md` · `../my-linkedin/docs/PROJECTS_CANON.md`
+**Audit:** [`social/linkedin/docs/audits/2026-05-28-branding-audit.md`](../../social/linkedin/docs/audits/2026-05-28-branding-audit.md)  
+**Canon:** `docs/BRANDING.md` · `../social/linkedin/docs/PROJECTS_CANON.md`
 
 **Drift:** Live `https://sqazi.sh/content/cv.txt` is audio-first + mac-config/cursor-config. Repo `content/cv.txt` is SWE lane-A + canonical 8.
 
@@ -9,7 +9,7 @@
 
 - **Edit:** `content/cv.txt` (SWE canon in repo — do not rewrite facts)
 - **Action:** Commit if needed → push `main` → GitHub Pages
-- **Verify:** `curl -sL https://sqazi.sh/content/cv.txt | head -20` shows “Software engineer and AI agent builder” + `/in/willyworst`
+- **Verify:** `curl -sL https://sqazi.sh/content/cv.txt | head -20` shows “Software engineer and AI agent builder” + `/in/lambdaqazi`
 - **Blocks:** LinkedIn Featured CV link; apply-agent `sqazi_cv` gate
 
 **Acceptance:**
@@ -63,7 +63,7 @@ SWE bio; pin canonical 8 per `PROJECTS_CANON.md` (separate repo if applicable).
 
 ## Gate (operator)
 
-When P0-1–P0-3 verified live, in `my-linkedin/kanban/batch-01-lane-a.yaml`:
+When P0-1–P0-3 verified live, in `social/linkedin/kanban/batch-01-lane-a.yaml`:
 
 - `global_gate.sqazi_cv: done`
 - `global_gate.portfolio_landing: done`
