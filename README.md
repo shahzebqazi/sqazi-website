@@ -1,21 +1,21 @@
 # sqazi
 
-Mastering engineer and programmer in Toronto. I build audio software—DSP, plugins, self-hosted music infra, and agent tooling around it.
+Software engineer and AI agent builder in Toronto. I build agent tooling, benchmark/evaluation pipelines, developer UX, and music-tech systems that ship.
 
 Curated portfolio: [sqazi.sh/content.html?page=projects](https://sqazi.sh/content.html?page=projects)
 
-**Pinned repos (GitHub profile)**
+**Featured GitHub pins**
 
-- [mac-config](https://github.com/shahzebqazi/mac-config) — public Mac bootstrap patterns
-- [cursor-config](https://github.com/shahzebqazi/cursor-config) — public Cursor workspace examples
+- [lambda-terminal](https://github.com/shahzebqazi/lambda-terminal) — Swift/macOS terminal proof with profiles, XDG env, and project-root sessions
+- [benchmark-euterpea](https://github.com/shahzebqazi/benchmark-euterpea) — deterministic model-evaluation pipeline with task contracts, verifiers, raw runs, and reports
 - [cursor-agents](https://github.com/shahzebqazi/cursor-agents) — Mastodon + MPD agent tools
-- [PowerAmpache2PluginTemplate](https://github.com/shahzebqazi/PowerAmpache2PluginTemplate) — Power Ampache 2 × Android Auto
-- [zinwa-q25-keyboard](https://github.com/shahzebqazi/zinwa-q25-keyboard) — Q25 firmware fork
 - [mhn-ai-agent-memory](https://shahzebqazi.github.io/mhn-ai-agent-memory/) — toy Hopfield agent memory (MCP)
+- [mystic-ai](https://github.com/shahzebqazi/mystic-ai) — brand-system codegen and desktop UX showcase
+- [zinwa-q25-keyboard](https://github.com/shahzebqazi/zinwa-q25-keyboard) — Q25 firmware fork
 
 **Audio.** [Iconoclast Audio](https://www.iconoclastaud.io/) · [Reverb shop](https://reverb.com/shop/gearacquisitionsyndrome/)
 
-**Systems.** CachyOS + Cosmic on Strix Halo, MacBook Pro, Zinwa Q25 — public patterns in mac-config; private operator hubs off-repo.
+**Systems.** CachyOS + Cosmic on Strix Halo, MacBook Pro, Zinwa Q25 — public patterns in [dotfiles](https://github.com/shahzebqazi/dotfiles); private operator hubs off-repo.
 
 **Games.** [Gankmid Co. Studios](https://www.gankmid.co/) · public hub [gankmid-co](https://github.com/shahzebqazi/gankmid-co)
 

@@ -3,7 +3,7 @@ Short notes and build logs. Long-form posts will land here when mirrored; for no
 ────────────────────────────────────────────────────────────────
 
 2026-05-22 — Repo consolidation (sqazi.sh + GitHub)
-What changed: Projects and profile README now match six pinned repos — mac-config, cursor-config, cursor-agents, PowerAmpache2PluginTemplate, zinwa-q25-keyboard, mhn-ai-agent-memory. Private operator hubs: my-mac-config, my-cursor-config. mystic-ai reframed as AI harness mockups. Iconoclast Audio and PA2 fork lead the CV experience highlights.
+What changed: sqazi.sh now separates six featured GitHub pins from broader portfolio work. Current featured set: lambda-terminal, benchmark-euterpea, cursor-agents, mhn-ai-agent-memory, mystic-ai, zinwa-q25-keyboard. Additional portfolio context stays public for Iconoclast Audio, Neck Diagram Studio, dotfiles, and Power Ampache 2.
 
 ────────────────────────────────────────────────────────────────
 

@@ -18,7 +18,7 @@ Three things share your bio and need to stay consistent:
 2. Copy the same text (plain, no HTML) into `README.md` in the `shahzebqazi/shahzebqazi` repo.
 3. Push both repos.
 
-**Lane-A drift (2026-05-28):** Profile `shahzebqazi/README.md` is **SWE-first** (canonical 8, Catppuccin badges) per `docs/BRANDING.md`. Until P0-3 lands, `index.html` may still be audio-forward — align home lede to README/CV, then re-sync both surfaces.
+**Lane-A sync (2026-05-31):** Profile `shahzebqazi/README.md`, `index.html`, and `content/projects.html` are SWE-first and use the featured GitHub pins as the top project set. Keep the GitHub profile README table-free; pinned repositories carry the six-project snapshot.
 
 ## When you add a project, paper, blog post, or update your CV
 

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="benchmark-euterpea">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="55%" stop-color="#313244"/>
+      <stop offset="100%" stop-color="#45475a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#g)"/>
+  <rect x="0" y="0" width="1200" height="320" fill="none" stroke="#cba6f7" stroke-opacity="0.25" stroke-width="2"/>
+  <g transform="translate(438, 38)">
+    <rect width="324" height="228" rx="24" fill="#11111b" stroke="#89b4fa" stroke-opacity="0.45" stroke-width="3"/>
+    <path d="M58 152 C88 92 128 92 160 152 S232 212 266 152" fill="none" stroke="#a6e3a1" stroke-width="8" stroke-linecap="round"/>
+    <path d="M58 116 C86 76 116 76 144 116 S204 156 234 116" fill="none" stroke="#f9e2af" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+    <rect x="56" y="46" width="212" height="22" rx="6" fill="#313244"/>
+    <rect x="56" y="178" width="70" height="12" rx="6" fill="#89b4fa"/>
+    <rect x="140" y="178" width="50" height="12" rx="6" fill="#cba6f7"/>
+    <rect x="204" y="178" width="64" height="12" rx="6" fill="#a6e3a1"/>
+    <text x="162" y="222" text-anchor="middle" font-family="ui-monospace, monospace" font-size="18" fill="#cdd6f4">verifier: pass/fail</text>
+  </g>
+  <text x="600" y="300" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="22" fill="#cdd6f4" font-weight="600">benchmark-euterpea</text>
+</svg>

@@ -93,8 +93,8 @@ Do not maintain two competing master CV files.
 
 - [x] LinkedIn public URL: `lambdaqazi` (sqazi.sh, shahzeb.me, GitHub profile)
 - [ ] Lane-A master PDF for Easy Apply (`PRE_APPLICATION_CHECKLIST.md`)
-- [ ] Home page + GitHub README pinned repos differ — align when convenient
-- [ ] Home page (`index.html`) still audio-forward—CV is SWE-only; align home copy if you want full-site SWE positioning
+- [x] Home page + GitHub README pinned repos differ — aligned around featured GitHub pins
+- [x] Home page (`index.html`) still audio-forward—aligned to SWE / AI / developer tooling first
 
 ---
 
