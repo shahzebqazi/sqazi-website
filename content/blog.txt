@@ -3,7 +3,7 @@ Short notes and build logs. Long-form posts will land here when mirrored; for no
 ────────────────────────────────────────────────────────────────
 
 2026-05-22 — Repo consolidation (sqazi.sh + GitHub)
-What changed: sqazi.sh now separates six featured GitHub pins from broader portfolio work. Current featured set: lambda-terminal, benchmark-euterpea, cursor-agents, mhn-ai-agent-memory, mystic-ai, zinwa-q25-keyboard. Additional portfolio context stays public for Iconoclast Audio, Neck Diagram Studio, dotfiles, and Power Ampache 2.
+What changed: sqazi.sh now separates six featured GitHub pins from broader portfolio work. Current featured set: lambda-terminal, benchmark-euterpea, cursor-agents, mhn-ai-agent-memory, dotfiles, Power Ampache 2. Additional portfolio context stays public for Iconoclast Audio, Neck Diagram Studio, mystic-ai, and zinwa-q25-keyboard.
 
 ────────────────────────────────────────────────────────────────
 

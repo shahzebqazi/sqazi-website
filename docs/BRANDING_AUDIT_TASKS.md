@@ -20,8 +20,8 @@
 ## P0-2 — `content/projects.html` (closed 2026-05-28 deploy, verified 2026-05-30)
 
 - **Repo:** six featured GitHub pins first; broader portfolio below; no mac-config / cursor-config
-- **Featured pins:** lambda-terminal · benchmark-euterpea · cursor-agents · mhn-ai-agent-memory · mystic-ai · zinwa-q25-keyboard
-- **Broader portfolio:** Iconoclast Audio · Neck Diagram Studio · dotfiles · Power Ampache 2 Plugin Template
+- **Featured pins:** lambda-terminal · benchmark-euterpea · cursor-agents · mhn-ai-agent-memory · dotfiles · Power Ampache 2 Plugin Template
+- **Broader portfolio:** Iconoclast Audio · Neck Diagram Studio · mystic-ai · zinwa-q25-keyboard
 
 **Acceptance:**
 
@@ -49,7 +49,7 @@ Optional: pre-push or Action — fail if live `cv.txt` ≠ repo (`SYNC.md`).
 
 ## P2 — GitHub profile README (closed in repo 2026-05-31; deploy/push pending)
 
-SWE bio; table-free README; pinned repositories carry the six-project snapshot: lambda-terminal, benchmark-euterpea, cursor-agents, mhn-ai-agent-memory, mystic-ai, zinwa-q25-keyboard.
+SWE bio; table-free README; pinned repositories carry the six-project snapshot: lambda-terminal, benchmark-euterpea, cursor-agents, mhn-ai-agent-memory, dotfiles, Power Ampache 2 Plugin Template.
 
 ## Gate (operator)
 

@@ -52,14 +52,14 @@ https://github.com/shahzebqazi/benchmark-euterpea · https://shahzebqazi.github.
 cursor-agents — AI Agent Toolkit
 https://github.com/shahzebqazi/cursor-agents
 
-Mystic — Brand System & Desktop UX Showcase
-https://github.com/shahzebqazi/mystic-ai · https://shahzebqazi.github.io/mystic-ai/
-
 MHN AI Agent Memory — Hopfield Research & MCP
 https://github.com/shahzebqazi/mhn-ai-agent-memory
 
-zinwa-q25-keyboard — Firmware & Mobile UX
-https://github.com/shahzebqazi/zinwa-q25-keyboard
+dotfiles — Xonsh Profiles, XDG Bootstrap & Systems DX
+https://github.com/shahzebqazi/dotfiles
+
+Power Ampache 2 — Android Auto Plugin Template
+https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
 
 ────────────────────────────────────────────────────────────────
 
@@ -71,11 +71,11 @@ https://www.iconoclastaud.io/
 Neck Diagram Studio — Fretboard Web App
 https://sqazi.sh/neck-diagram-studio/
 
-dotfiles — Xonsh Profiles, XDG Bootstrap & Systems DX
-https://github.com/shahzebqazi/dotfiles
+Mystic — Brand System & Desktop UX Showcase
+https://github.com/shahzebqazi/mystic-ai · https://shahzebqazi.github.io/mystic-ai/
 
-Power Ampache 2 — Android Auto Plugin Template
-https://github.com/shahzebqazi/PowerAmpache2PluginTemplate
+zinwa-q25-keyboard — Firmware & Mobile UX
+https://github.com/shahzebqazi/zinwa-q25-keyboard
 
 ────────────────────────────────────────────────────────────────
 

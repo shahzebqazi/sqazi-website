@@ -10,8 +10,8 @@ Curated portfolio: [sqazi.sh/content.html?page=projects](https://sqazi.sh/conten
 - [benchmark-euterpea](https://github.com/shahzebqazi/benchmark-euterpea) — deterministic model-evaluation pipeline with task contracts, verifiers, raw runs, and reports
 - [cursor-agents](https://github.com/shahzebqazi/cursor-agents) — Mastodon + MPD agent tools
 - [mhn-ai-agent-memory](https://shahzebqazi.github.io/mhn-ai-agent-memory/) — toy Hopfield agent memory (MCP)
-- [mystic-ai](https://github.com/shahzebqazi/mystic-ai) — brand-system codegen and desktop UX showcase
-- [zinwa-q25-keyboard](https://github.com/shahzebqazi/zinwa-q25-keyboard) — Q25 firmware fork
+- [dotfiles](https://github.com/shahzebqazi/dotfiles) — profile-based xonsh and XDG bootstrap
+- [PowerAmpache2PluginTemplate](https://github.com/shahzebqazi/PowerAmpache2PluginTemplate) — Power Ampache 2 × Android Auto
 
 **Audio.** [Iconoclast Audio](https://www.iconoclastaud.io/) · [Reverb shop](https://reverb.com/shop/gearacquisitionsyndrome/)
 
