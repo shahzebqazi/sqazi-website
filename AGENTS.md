@@ -49,7 +49,7 @@ Treat the project board as the **canonical task list**; this repo’s issues and
 ## Git and deploy
 
 - Work on **feature branches**; merge to **`main`** to publish.
-- **Do not** re-add a root `CNAME` file (that was for GitHub Pages only).
+- **Do not** re-add a root `CNAME` file (GitHub Pages custom domain removed 2026-06-01; production is CloudFront only).
 - Infra changes: in `~/Git/Machines/my-servers/moons/sol/terraform` — not this repo.
 - Commit messages should describe **what** changed and **why** when it is not obvious.
 
