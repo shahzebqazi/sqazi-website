@@ -42,8 +42,7 @@ jobs:
             --exclude "SYNC.md" \
             --exclude "CNAME" \
             --exclude "*.md" \
-            --cache-control "public,max-age=3600" \
-            --guess-mime-type
+            --cache-control "public,max-age=3600"
 
       - name: Invalidate CloudFront cache
         run: |
