@@ -6,12 +6,12 @@ Curated portfolio: [sqazi.sh/content.html?page=projects](https://sqazi.sh/conten
 
 **Featured GitHub pins**
 
-- [lambda-terminal](https://github.com/shahzebqazi/lambda-terminal) — Swift/macOS terminal proof with profiles, XDG env, and project-root sessions
-- [benchmark-euterpea](https://github.com/shahzebqazi/benchmark-euterpea) — deterministic model-evaluation pipeline with task contracts, verifiers, raw runs, and reports
-- [cursor-agents](https://github.com/shahzebqazi/cursor-agents) — Mastodon + MPD agent tools
-- [mhn-ai-agent-memory](https://shahzebqazi.github.io/mhn-ai-agent-memory/) — toy Hopfield agent memory (MCP)
-- [dotfiles](https://github.com/shahzebqazi/dotfiles) — profile-based xonsh and XDG bootstrap
+- [mystic-ai](https://github.com/shahzebqazi/mystic-ai) — design skills showcase and AI dashboard demos
 - [PowerAmpache2PluginTemplate](https://github.com/shahzebqazi/PowerAmpache2PluginTemplate) — Power Ampache 2 × Android Auto
+- [zinwa-q25-keyboard](https://github.com/shahzebqazi/zinwa-q25-keyboard) — FUTO fork for Zinwa Q25
+- [mhn-ai-agent-memory](https://shahzebqazi.github.io/mhn-ai-agent-memory/) — toy Hopfield agent memory (MCP)
+- [cursor-agents](https://github.com/shahzebqazi/cursor-agents) — Mastodon + MPD agent tools
+- [lambda-terminal](https://github.com/shahzebqazi/lambda-terminal) — Swift/macOS terminal proof with profiles and XDG env
 
 **Audio.** [Iconoclast Audio](https://www.iconoclastaud.io/) · [Reverb shop](https://reverb.com/shop/gearacquisitionsyndrome/)
 
